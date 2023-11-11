@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTS PORTOFOLIO</title>
+    <link rel="stylesheet" a href="d:\SEMESTER 3\PEMOGRAMAN WEB 1\TUGAS\UTS SMT 3\TUGAS 2\Style1.css"/>
+     <!-----PENGGUNAAN JAVASCRIPT UNTUK MENCETAK HALAMAN WEB-->
+     <script>
+        function printPage() {
+          window.print();
+        }
+        </script>
+    <input type="button" value="Print this page" onclick="printPage()" />
+    
+    
+</head>
+<body>
+       
+    <header>
+       <!----Penggunaan Javascript untuk memunculkan tanggal-->
+            <p id="date"></p>
+            <script>
+            const d = new Date();
+            document.getElementById("date").innerHTML = d;
+            </script>
+                </div>
+            </header>
+    <!-----UNTUK LOGO DAN NAVIGASI MENU-------->
+    <nav>
+        
+        <div class="tampilan">    
+            <div class="logo"><a href=''>MY PORTOFOLIO</a></div>    
+            <div class="menu">
+                <ul>
+                    <li><a href="#hero">Hero</a></li>
+                    <li><a href="#about me">About Me</a></li>
+                    <li><a href="#my project">My Project</a></li>
+                    <li><a href="#contact me">Contact Me</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="tampilan">
+        <!--------------------HERO SECTION------------ -->
+        <section id="hero">
+        
+            <div class="kerangka1">
+            <img src="d:\SEMESTER 3\PEMOGRAMAN WEB 1\TUGAS\UTS SMT 3\TUGAS 2\foto diri.1.png"/>
+            </div>
+            <div class="kolom">
+                <article>
+                <h2>Selamat datang di Portofolio Saya!</h2>
+                <br>
+                <!--------------PENGGUNAAN JAVASCRIPT UNTUK MENGGANTI TEXT-->
+                <script>
+                    function myFunction() {
+                      document.getElementById("english").innerHTML = "I am a dedicated Professional UI/UX Designer, with years of experience in creating amazing user experiences and engaging interfaces. I believe that design is not just about aesthetics,but also about creating effective and meaningful solutions";
+                    }
+                    
+                    </script>
+                                        
+                    <p id="english">Saya adalah seorang Profesional UI/UX Designer yang berdedikasi, dengan pengalaman bertahun-tahun dalam menciptakan pengalaman pengguna yang menakjubkan dan antarmuka yang menarik. Saya percaya bahwa desain bukan hanya tentang estetika,
+                        tetapi juga tentang menciptakan solusi yang efektif dan bermakna.</p>
+                    
+                    <button type="button" onclick="myFunction()">Click Me To Change The Language</button>
+                    
+                     <br>
+                     <p>Dengan latar belakang dalam merancang berbagai jenis produk digital, saya telah bekerja dengan berbagai klien dari berbagai industri. Saya memiliki keterampilan dalam melakukan riset pengguna, analisis persaingan, dan mengidentifikasi peluang untuk meningkatkan pengalaman pengguna. Selain itu, saya juga ahli dalam merancang prototipe, 
+                        melakukan pengujian pengguna, dan berkolaborasi dengan tim pengembang untuk mewujudkan desain menjadi kenyataan.</p>
+                        <br>
+                        <p>Selama perjalanan karier saya, saya telah berhasil merancang dan mengembangkan berbagai produk digital, mulai dari aplikasi seluler hingga situs web dan aplikasi perangkat lunak.
+                             Saya juga memiliki pengalaman dalam bekerja dalam tim besar, serta bekerja secara mandiri.</p>
+                             
+                             </article>
+                            
+                                
+                
+            </div>
+        </section>
+
+        <!-- --------------------- ABOUT ME--------------------------- -->
+        <section id="about me">
+            <div class="kolom">
+                <h1> ABOUT ME </h1>
+                <br>
+                <p>Hi !, saya Movida Tantra Putra Malani,saya adalah seorang Desainer Antarmuka Pengguna (UI) dan Pengalaman Pengguna (UX) yang memiliki pengalaman digital yang luar biasa. 
+                    Saya percaya bahwa desain yang baik adalah kunci utama untuk menghubungkan teknologi dengan pengguna akhir, 
+                    dan itulah mengapa saya sangat bersemangat tentang apa yang saya lakukan.</p>
+                    <br>
+                   <p> Pengalaman saya dimulai sejak saya menempuh pendidikan di Politeknik Harapan Bersama,
+                     saya pernah mengikuti lomba UI/UX Designer yang diadakan oleh sekolah vokasi IPB. 
+                     Kemudian saya juga mengikuti kelas Course yang diadakan oleh Dicoding dan juga Course-Net</p>
+                     <br>
+                    <p>Saya memiliki latar belakang dalam desain grafis dan komunikasi visual, yang memberi saya dasar kuat dalam estetika dan komunikasi visual. Kombinasi ini dengan pemahaman mendalam tentang kebutuhan pengguna 
+                        dan penelitian UX memungkinkan saya untuk menciptakan solusi desain yang menarik, fungsional, dan mudah digunakan.</p>
+                        <br>
+                        <p>Saya selalu mencari cara untuk meningkatkan keahlian saya dan tetap update dengan tren terbaru dalam industri.</p>
+                             <p>Saya percaya bahwa desain yang kuat adalah tentang lebih dari sekadar tampilan visual. Ini tentang menciptakan alur kerja yang efisien, memahami audiens target, dan mendengarkan pengguna. Dalam proyek-proyek saya, 
+                                saya selalu berusaha untuk menggabungkan estetika yang menarik dengan fungsionalitas yang tak tertandingi.</p>
+                                <br>
+                                <p>Hobi saya yaitu membaca dan juga menonton film. Disamping itu saya juga suka mempelajari bahasa asing seperti bahasa inggris , bahasa arab, dan bahasa mandarin. Biasanya saya melatih kemampuan bahasa saya dengan aplikasi duolingo , mengikuti tes TOFEL yang free, dan dari menonton film.
+                                     Karena menurut saya, jika kita mampu menguasai berbagai bahasa asing,
+                                      kita akan mudah untuk memperluas social network</p>
+                                      <br>
+                                     <p>Goals yang saya ingin raih, salah satunya yaitu saya ingin menjadi UI/UX Designer di salah satu perusahaan kapal pesiar terbesar di Amerika yaitu Royal Carrebean Cruise.</p>
+
+              
+            </div>
+            
+        </section>
+
+         <!-- -------MY PROJECT----------------- -->
+         <section id="my project">
+            <div class="center">
+                <div class="kolom">
+                    
+                    <h2>My Project</h2>
+                    <p>Berikut adalah beberapa project yang pernah saya kerjakan dan beberapa sertifikat yang pernah saya dapatkan</p>
+                    <table>
+                        
+                        <br>
+                        <br>
+                       
+                            <tr>
+                                <th>Nama Project</th>
+                                <th>Tahun Pengerjaan</th>
+                                <th>Deskripsi</th>
+                                <th>Link</th>
+                                
+                            </tr>
+                            <tr>
+                                <td>Redesain Aplikasi M-Banking</td>
+                                <td>2023</td>
+                                <td> Redesain m-banking diperlukan untuk meningkatkan pengalaman pengguna.
+                                     Dengan mengubah tata letak, warna, ikon, dan elemen desain lainnya, hal itu dapat membuat aplikasi
+                                      lebih menarik dan mudah digunakan.
+                                     Hal ini juga dapat membantu menarik lebih banyak pengguna dan mempertahankan pengguna yang sudah ada.</td>
+                                <td><a href="https://www.figma.com/proto/0HoQN08gMFuvjAfWH68BGb/WIREFLOW?type=design&t=7f0RJXhIe5YYHhZr-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=166%3A2&show-proto-sidebar=1&node-id=166-2&mode=design">Figma</a></td>
+                            </tr>
+                            <tr>
+                                <td>Membuat Tampilan Web dengan tema Lingkungan</td>
+                                <td>2023</td>
+                                <td>Membuat halaman website statis yang memiliki komponen : HTML element ,HTML attribute ,HTML heading ,
+                                    HTML paragraph, HTML style , HTML Formatting , HTML links, HTML image</td>
+                                <td><a href="https://github.com/movidatantra/LATIHAN.git">Link</a></td>
+                            </tr>
+                            <tr>
+                                <td>Publikasi Artikel</td>
+                                <td>2023</td>
+                                <td>Membuat Artikel Opini dengan judul "Rusaknya Moralitas Anak Bangsa Akibat Aborsi Ilegal</td>
+                                <td><a href="https://jurnalpost.com/rusaknya-moralitas-anak-bangsa-akibat-aborsi-ilegal/51271/">Link</a></td>
+                    
+                            </tr>
+                        </table>
+                            
+                </div>
+                <!------------------------------SERTIFIKAT PENGHARGAAN------>
+
+                <div class="size">
+                    <div class="kerangka">
+                        <img src="d:\SEMESTER 3\PEMOGRAMAN WEB 1\TUGAS\UTS SMT 3\TUGAS 2\Sertifikat Course dicoding 1_page-0001.png"/>
+                        
+                    </div>
+                    <div class="kerangka">
+                        <img src="d:\SEMESTER 3\PEMOGRAMAN WEB 1\TUGAS\UTS SMT 3\TUGAS 2\Sertifikat Course dicoding 2.jpg"/>
+                      
+                    </div>
+                    <!--------------------------->
+                    <div class="size">
+                    <div class="kerangka">
+                        <img src="d:\SEMESTER 3\PEMOGRAMAN WEB 1\TUGAS\UTS SMT 3\TUGAS 2\Sertifikat Course Dicoding 3.jpg"/>
+                    </div>
+                    <div class="kerangka">
+                        <img src="d:\SEMESTER 3\PEMOGRAMAN WEB 1\TUGAS\UTS SMT 3\TUGAS 2\Sertifikat lomba UIUX IPB_page-0001.png"/>
+                        
+                    </div>
+                    <div class="kerangka">
+                        <img src="d:\SEMESTER 3\PEMOGRAMAN WEB 1\TUGAS\UTS SMT 3\TUGAS 2\Pre-Course-2023-Februari_Fundamental-of-Cyber-Security_movidamalanigmail.com_ (1)_page-0001.png"/>
+                    </div>
+                    <div class="kerangka">
+                        <img src="d:\SEMESTER 3\PEMOGRAMAN WEB 1\TUGAS\UTS SMT 3\TUGAS 2\Pre-Course-October-2022_.jpg"/>
+                    </div>
+
+                </div>
+            </div>
+            </div>
+
+           
+        </section>
+        <footer>
+        <div id="contact">
+            <div class="tampilan">
+                <div class="footer">
+                    <div class="footer1">
+                        <h3>Contact Me</h3>
+                        <p><img src="d:\SEMESTER 3\PEMOGRAMAN WEB 1\TUGAS\UTS SMT 3\TUGAS 2\whatsapp_5968841.png"/> 0821-3696-4012</p>
+                        <p><img src="d:\SEMESTER 3\PEMOGRAMAN WEB 1\TUGAS\UTS SMT 3\TUGAS 2\gmail_732200.png"/> movidamalani@gmail.com</p>
+                    </div>
+                    
+                    <div class="footer1">
+                        <h3>Address</h3>
+                        <p>Desa Kesamiran RT.1 RW.1 Kec. Tarub Kab. Tegal</p>
+                        <p>Kode Pos: 52184</p>
+                    </div>
+                    <div class="footer1">
+                        <h3>Social Media</h3>
+                        <p><img src="d:\SEMESTER 3\PEMOGRAMAN WEB 1\TUGAS\UTS SMT 3\TUGAS 2\github_2111425.png"/><a href="https://github.com/movidatantra/movidatantra-TugasPemogramanWeb1.git" >Github</a></p>
+                       <p><img src="d:\SEMESTER 3\PEMOGRAMAN WEB 1\TUGAS\UTS SMT 3\TUGAS 2\youtube_1384060.png"/><a href="https://www.youtube.com/@movidamalani3470">Youtube</p>
+                        <p><img src="d:\SEMESTER 3\PEMOGRAMAN WEB 1\TUGAS\UTS SMT 3\TUGAS 2\linkedin_3536505.png"/><a href="https://www.linkedin.com/in/movida-malani-905ba4236?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" >Linkedln</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        </footer>
+
+</body>
+</html>
